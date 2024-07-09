@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 1.2rem;
+}
+body{
+  min-height: 100svh;
+  background-color: whitesmoke;
+}
+form{
+  display: flex;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+button{
+  width: 100%;
+  height: 4rem;
+  border: 2px solid black;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.selected{
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+}
+.selected:hover{
+  background-color: rgb(27, 27, 27);
+}
+button:hover{
+  background-color: aliceblue;
+}
+
+table tbody tr{
+  font-size: 1.2rem;
+  outline: 2px solid black;
+  height: 50px;
+}
+table tbody tr td{
+  outline: 2px solid black;
+  padding: 10px;
+}
